@@ -1,7 +1,8 @@
 import React from 'react'
+import { cx, css } from 'emotion'
 import TodoList from './TodoList'
 import AddTodo from './AddTodo'
-import { cx, css } from 'emotion'
+import ButtonGroup from './ButtonGroup'
 
 const rootDiv = css`
   margin-top: 3em;
@@ -19,6 +20,7 @@ function App() {
       <h1>Simple Todo App</h1>
       <AddTodo />
       <TodoList />
+      <ButtonGroup />
     </div>
   )
 }

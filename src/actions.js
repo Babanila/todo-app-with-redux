@@ -1,4 +1,3 @@
-import React from 'react'
 import * as actions from './actionTypes'
 
 let initialId = 0
@@ -22,4 +21,19 @@ export const completedTodo = (id) => ({
 export const removeTodo = (id) => ({
   type: actions.REMOVE_TODO,
   payload: { id }
+})
+
+export const showAllTodo = (todos) => ({
+  type: actions.SHOW_ALL_TODO,
+  payload: todos
+})
+
+export const showCompletedTodo = (todos) => ({
+  type: actions.SHOW_COMPLETED_TODO,
+  payload: todos
+})
+
+export const showActiveTodo = (todos) => ({
+  type: actions.SHOW_ACTIVE_TODO,
+  payload: todos
 })

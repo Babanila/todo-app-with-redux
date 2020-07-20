@@ -39,11 +39,16 @@ const deleteBtnStyles = css`
   }
 `
 
-function SingleTodo({ id, text, completed, handleToggle, cancelClick, deleteClick }) {
+function SingleTodo({ id, text, completed, cancelClick, deleteClick }) {
   return (
     <li className={cx(singleDivStyles)}>
       <div onClick={(e) => cancelClick(e, id)}>
-        <input className={cx(checkBoxStyles)} type='checkbox' checked={completed} />
+        <input
+          className={cx(checkBoxStyles)}
+          type='checkbox'
+          checked={completed}
+          onChange={(e) => cancelClick(e, id)}
+        />
         <span
           className={cx(textStyles)}
           style={{

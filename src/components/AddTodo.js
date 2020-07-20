@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDispatch, connect } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { cx, css } from 'emotion'
 import { addTodo } from '../actions'
 
@@ -41,8 +41,9 @@ const addButtonStyles = css`
 
 function AddTodo() {
   const [input, setInput] = useState('')
-  const handleInputChange = (item) => setInput(item)
+
   const dispatch = useDispatch()
+  const handleInputChange = (item) => setInput(item)
 
   const handleCreateTodo = (e) => {
     e.preventDefault()
@@ -65,4 +66,4 @@ function AddTodo() {
     </div>
   )
 }
-export default connect(null, { addTodo })(AddTodo)
+export default AddTodo

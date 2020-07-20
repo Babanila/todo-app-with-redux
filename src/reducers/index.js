@@ -1,11 +1,11 @@
 import React from 'react'
 import { combineReducers } from 'redux'
 import todoReducer from './todoReducer'
-// import visibilityReducer from './visibilityReducer'
+import visibilityReducer from './visibilityReducer'
 
 const rootReducer = combineReducers({
   todoReducer,
-  // visibilityReducer
+  visibilityReducer
 })
 
 export default rootReducer
