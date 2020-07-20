@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { cx, css } from 'emotion'
 import SingleTodo from './SingleTodo'
-import { completedTodo, removeTodo } from '../actions'
+import { completedTodo, removeTodo } from '../redux/actions'
 
 const ulStyles = css`
   width: 100%;

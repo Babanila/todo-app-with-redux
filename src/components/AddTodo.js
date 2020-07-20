@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { cx, css } from 'emotion'
-import { addTodo } from '../actions'
+import { addTodo } from '../redux/actions'
 
 const addTodoDivStyles = css`
   width: 100%;
@@ -41,15 +41,15 @@ const addButtonStyles = css`
 
 function AddTodo() {
   const [input, setInput] = useState('')
-
   const dispatch = useDispatch()
-  const handleInputChange = (item) => setInput(item)
 
+  const handleInputChange = (item) => setInput(item)
   const handleCreateTodo = (e) => {
     e.preventDefault()
     if (input) dispatch(addTodo(input))
     setInput('')
   }
+
   return (
     <div className={cx(addTodoDivStyles)}>
       <form className={cx(formStyles)} onSubmit={handleCreateTodo}>

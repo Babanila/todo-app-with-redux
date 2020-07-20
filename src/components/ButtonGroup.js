@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { cx, css } from 'emotion'
 import SingleButton from './SingleButton'
-import { showAllTodo, showCompletedTodo, showActiveTodo } from '../actions'
+import { showAllTodo, showCompletedTodo, showActiveTodo } from '../redux/actions'
 
 const btnDivStyles = css`
   margin-top: 1em;
