@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleButton should renders site title correctly 1`] = `
+<button
+  onClick={[Function]}
+>
+  delete
+</button>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup should renders site title correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ButtonGroup>
+    <div
+      className="css-12gomj1"
+    >
+      <SingleButton
+        btnClick={[Function]}
+        btnName="All Todo"
+      >
+        <button
+          onClick={[Function]}
+        >
+          All Todo
+        </button>
+      </SingleButton>
+      <SingleButton
+        btnClick={[Function]}
+        btnName="Completed Todo"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Completed Todo
+        </button>
+      </SingleButton>
+      <SingleButton
+        btnClick={[Function]}
+        btnName="Active Todo"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Active Todo
+        </button>
+      </SingleButton>
+    </div>
+  </ButtonGroup>
+</Provider>
+`;

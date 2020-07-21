@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTodo should renders site title correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <AddTodo>
+    <div
+      className="css-1hgts9t"
+    >
+      <form
+        className="css-roxwtq"
+        onSubmit={[Function]}
+      >
+        <input
+          className="css-xdfs90"
+          onChange={[Function]}
+          placeholder="What needs to be done?..."
+          value=""
+        />
+        <button
+          className="css-1rs6h6a"
+          onClick={[Function]}
+          type="submit"
+        >
+          Add
+        </button>
+      </form>
+    </div>
+  </AddTodo>
+</Provider>
+`;

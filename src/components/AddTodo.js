@@ -44,6 +44,7 @@ function AddTodo() {
   const dispatch = useDispatch()
 
   const handleInputChange = (item) => setInput(item)
+
   const handleCreateTodo = (e) => {
     e.preventDefault()
     if (input) dispatch(addTodo(input))

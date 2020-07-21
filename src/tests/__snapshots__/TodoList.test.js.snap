@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList should renders site title correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <TodoList>
+    <ul
+      className="css-13stbb8"
+    >
+      <SingleTodo
+        cancelClick={[Function]}
+        completed={true}
+        deleteClick={[Function]}
+        id={1}
+        key="0"
+        text="Write Code"
+      >
+        <li
+          className="css-l9jawx"
+        >
+          <div
+            onClick={[Function]}
+          >
+            <input
+              checked={true}
+              className="css-xpivgo"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="css-1awclaz"
+              style={
+                Object {
+                  "textDecoration": "line-through",
+                }
+              }
+            >
+              Write Code
+            </span>
+          </div>
+          <button
+            className="css-1kaf7lk"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </li>
+      </SingleTodo>
+      <SingleTodo
+        cancelClick={[Function]}
+        completed={false}
+        deleteClick={[Function]}
+        id={2}
+        key="1"
+        text="Test Code"
+      >
+        <li
+          className="css-l9jawx"
+        >
+          <div
+            onClick={[Function]}
+          >
+            <input
+              checked={false}
+              className="css-xpivgo"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="css-1awclaz"
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Test Code
+            </span>
+          </div>
+          <button
+            className="css-1kaf7lk"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </li>
+      </SingleTodo>
+      <SingleTodo
+        cancelClick={[Function]}
+        completed={true}
+        deleteClick={[Function]}
+        id={3}
+        key="2"
+        text="Refactor Code"
+      >
+        <li
+          className="css-l9jawx"
+        >
+          <div
+            onClick={[Function]}
+          >
+            <input
+              checked={true}
+              className="css-xpivgo"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="css-1awclaz"
+              style={
+                Object {
+                  "textDecoration": "line-through",
+                }
+              }
+            >
+              Refactor Code
+            </span>
+          </div>
+          <button
+            className="css-1kaf7lk"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </li>
+      </SingleTodo>
+      <SingleTodo
+        cancelClick={[Function]}
+        completed={false}
+        deleteClick={[Function]}
+        id={4}
+        key="3"
+        text="Review Code"
+      >
+        <li
+          className="css-l9jawx"
+        >
+          <div
+            onClick={[Function]}
+          >
+            <input
+              checked={false}
+              className="css-xpivgo"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <span
+              className="css-1awclaz"
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Review Code
+            </span>
+          </div>
+          <button
+            className="css-1kaf7lk"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </li>
+      </SingleTodo>
+    </ul>
+  </TodoList>
+</Provider>
+`;

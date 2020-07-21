@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleTodo should renders site title correctly 1`] = `
+<li
+  className="css-l9jawx"
+>
+  <div
+    onClick={[Function]}
+  >
+    <input
+      checked={false}
+      className="css-xpivgo"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="css-1awclaz"
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+    >
+      Test Codebase
+    </span>
+  </div>
+  <button
+    className="css-1kaf7lk"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</li>
+`;
